@@ -1,6 +1,6 @@
 
 function othername() {
-  var yummly = "http://www.yummly.com/recipe/";
+  var yummly = "https://www.yummly.com/recipe/";
   var input = document.getElementById("userInput").value;
   document.getElementById("message").innerHTML = "";
   document.getElementById("input").style.visibility = "hidden";
@@ -28,7 +28,7 @@ function othername() {
   }
   var subsets = combine(array, 4);
   console.log(subsets);
-  var url = "http://api.yummly.com/v1/api/recipes?_app_id=0167bcf9&_app_key=5387087d7c98100f1393f86f9e4fa918"
+  var url = "https://api.yummly.com/v1/api/recipes?_app_id=0167bcf9&_app_key=5387087d7c98100f1393f86f9e4fa918"
   var matchesPromises = [];
   for (i = 0; i < subsets.length; i++) {
     for (j = 0; j < subsets[i].length; j++) {
@@ -67,7 +67,7 @@ function othername() {
     // };
     //   xhttp.open("GET", url, true);
     //   xhttp.send();
-      url = "http://api.yummly.com/v1/api/recipes?_app_id=0167bcf9&_app_key=5387087d7c98100f1393f86f9e4fa918"
+      url = "https://api.yummly.com/v1/api/recipes?_app_id=0167bcf9&_app_key=5387087d7c98100f1393f86f9e4fa918"
 
   }
   Promise.all(matchesPromises).then(function(allMatches) {
