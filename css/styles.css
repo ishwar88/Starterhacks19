@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #79c48c;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+#title {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 1.8em;
+  padding-right: 10px;
+}
+
+#title , #cutlery{
+  display:inline-block;
+  color: #fff;
+}
+
+#input {
+  color: #000000;
+}
+
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+
+}
+
+.pad{
+  padding-bottom: 30px;
+}
+
