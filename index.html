@@ -5,26 +5,50 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
     	<link rel="stylesheet" href="css/styles.css">
     	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<style>
+		body { 
+		background-image: url("fruuuiiit.png");
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		}
+		h1 {
+		font-size: 5em; 
+		color: #fff;
+		}
+		span {
+		font-size: 5em; 
+		color: #fff;
+		}
+		div.fixed {
+		position: fixed;
+		width: 50%;
+		bottom: 10px;
+		} 
+		</style>
 	</head>
 <body id = "body">
-	<header align="center">
+	<header align="center">	
 		<div align="center">
-            <a href="index.html" id="title"><h1>What's In My Fridge?</h1></a>
+            <a href="index.html" id="title">
+			<h1>What's In My Fridge?</h1></a>
             <a href="index.html">
             <span id = "cutlery" class="glyphicon glyphicon-cutlery"></span></a>
         </div><!-- #header-nav -->
   </header>
-  	<p align="center" id="message">Enter the ingredients in your fridge below, spaced by commas. We'll let you know what delicious meals you can make!</p>
+  	<p align="center" id="message" style="font-size: 2.7em;">Enter the ingredients in your fridge below, spaced by commas. We'll let you know what delicious meals you can make!</p>
   	<form action = "results.html" align="center" id="input">
  	 Ingredients:<br>
-  	<input type="text" name="stuff" value="" id="userInput"><br>
+  	<input type="text" name="stuff" value="" id="userInput" style="width: 800px;"><br>
  	 <br>
   	<button type="button" onclick="othername()">Submit</button>
 </form>
   
 
 <script src="js/script.js"></script>
-
+<div class = "fixed">Powered By
+<a href='https://www.yummly.co/recipes'><img alt='Yummly' src='https://static.yummly.co/api-logo.png'/></a>
+</div>
 </body>
 </html>
  

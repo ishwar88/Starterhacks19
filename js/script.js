@@ -74,7 +74,6 @@ function othername() {
      var ids = [];
      var rNames = [];
      var imgs = [];
-     console.log(allMatches);
     for (i = 0; i < allMatches.length; i++) {
       for (var match of allMatches[i]) {
         if (match["ingredients"].length == subsets[i].length) {

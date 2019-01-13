@@ -7,14 +7,14 @@ body {
 
 /** HEADER **/
 
-#title {
+.title {
   font-family: 'Roboto';
   text-align: center;
-  font-size: 1.8em;
+  font-size: large;
   padding-right: 10px;
 }
 
-#title , #cutlery{
+.title , .cutlery{
   display:inline-block;
   color: #fff;
 }
@@ -34,4 +34,3 @@ img.center{
 .pad{
   padding-bottom: 30px;
 }
-
